@@ -22,11 +22,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Rivera — AI Engineer",
-  description: "AI Engineer & Product Builder. I build intelligent systems that think, learn, and create.",
+  title: "Naveen Kumar - Software Engineer",
+  description: "Buiding full stack applications, solving DSA problems and exporing AI",
   openGraph: {
-    title: "Alex Rivera — AI Engineer",
-    description: "AI Engineer & Product Builder",
+    title: "Naveen Kumar - Software Engineer",
+    description: "Buiding full stack applications, solving DSA problems and exporing AI",
     type: "website",
   },
 };
