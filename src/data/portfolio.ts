@@ -104,6 +104,28 @@ export const skills = [
 export const projects = [
   {
     id: "proj1",
+    title: "Devable - AI Powered App Builder",
+    description:
+      "* Architected end-to-end pipeline: prompt → AI code generation → sandbox execution → live iframe preview.Debugged complex React hydration failures caused by Next.js blocking HMR WebSocket requests from e2b sandboxdomains. Resolved WORKDIR misconfiguration in e2b templates, Node.js version incompatibilities, and port conflict issues.",
+    tags: ["Next.js", "TypeScript", "AI", "PostgreSQL", "Prisma", "Inngest", "Gemini 2.5 Pro", "e2b", "Clerk", "Shadcn UI"],
+    github: "https://github.com/iNaveen22/devable",
+    demo: "devable-eight.vercel.app",
+    featured: false,
+    gradient: "from-emerald-500/10 to-teal-500/10",
+  },
+  {
+    id: "proj2",
+    title: "Second brain",
+    description:
+      "A Second Brain Application inspired by Brainly, where users can save and organize links, tweets, YoouTube videos and personal thoughts in one place. Designed to act as a personal knowledge hub with structured storage, easy retrieval, and a clean user experience.",
+    tags: ["React", "Node.js", "Express.js", "Vector Database", "Embeddings API"],
+    github: "https://github.com/iNaveen22/brain",
+    demo: "brain-three-sage.vercel.app",
+    featured: false,
+    gradient: "from-pink-500/10 to-rose-500/10",
+  },
+  {
+    id: "proj3",
     title: "Excalidraw Web App",
     description:
       "A collaborative whiteboard web application inspired by Excalidraw, built for real-time drawing and idea sharing. It supports an interactive canvas-based experience with a clean UI and smooth user interaction.",
@@ -112,28 +134,6 @@ export const projects = [
     demo: "https://excalidraw-web-ten.vercel.app/",
     featured: false,
     gradient: "from-violet-500/10 to-blue-500/10",
-  },
-  {
-    id: "proj2",
-    title: "Bolt AI App",
-    description:
-      "An Ai-Powered web application inspired by Bolt, focused on generating and interacting with smart outputs through a modern interface. Built with a fulll-stack approach to combine responsive frontend design with backend logic.",
-    tags: ["Next.js", "React", "Node.js", "TypeScript", "AI"],
-    github: "https://github.com/iNaveen22/Bolt",
-    demo: "https://bolt-frontend-ten.vercel.app/",
-    featured: false,
-    gradient: "from-emerald-500/10 to-teal-500/10",
-  },
-  {
-    id: "proj3",
-    title: "Second brain",
-    description:
-      "A Second Brain Application inspired by Brainly, where users can save and organize links, tweets, YoouTube videos and personal thoughts in one place. Designed to act as a personal knowledge hub with structured storage, easy retrieval, and a clean user experience.",
-    tags: ["React", "Node.js", "Express.js", "MongoDB"],
-    github: "https://github.com/iNaveen22/brainly-frontend",
-    demo: null,
-    featured: false,
-    gradient: "from-pink-500/10 to-rose-500/10",
   },
 ];
 
